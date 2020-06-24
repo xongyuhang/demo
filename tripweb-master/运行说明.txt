@@ -1,0 +1,7 @@
+1、在idea open该项目，等maven加载完
+2、修改resources下的tripweb.properties文件，dbc.password=123456中的123456改为您自己的mysql密码
+3、项目添加到tomcat，启动运行
+4、访问http://localhost:8080/
+5、管理员的入口在首页最下方的  SWUST Jermaine 管理员登录?  点击这个链接就可以访问，注意用邮箱登录（即1289967623@qq.com和123登录）
+
+导数据库的，在你的mysql中新建一个名为trip_web_db的数据库，注意指定编码为utf-8，然后运行trip_web_db.sql文件就好了
